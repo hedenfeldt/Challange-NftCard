@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Bitter', serif;
+    font-family: 'Piazzolla', serif;
+}
+.main-background{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nft-card img{
+    width: 195px;
+    border-radius: 8px;
+   
+}
+.img-container{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+.nft-card{
+    background-color: hsl(216, 50%, 16%);
+    width: 220px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: -6px 28px 26px 18px rgba(0,0,0,0.68);
+-webkit-box-shadow: -6px 28px 26px 18px rgba(0,0,0,0.68);
+-moz-box-shadow: -6px 28px 26px 18px rgba(0,0,0,0.68);
+}
+.left img{
+    width: 11px;
+    height: 16px;
+    padding-bottom: 6px;
+/* margin: 0 auto; */
+}
+.right img{
+    width: 12px;
+    height: 16px;
+    padding-bottom: 6px;
+    /* margin: 0 auto; */
+}
+.buy-now-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.buy-now-container-p{
+    font-weight: 600;
+}
+.left{
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    align-items: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    padding-bottom: 10px;
+}
+.info-container p{
+    font-size: 12px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.info-container h4{
+color: hsl(0, 0%, 100%);
+}
+.creator-container img{
+    width: 22px;
+    height: 22px;
+    border-radius: 1000px;
+    border: 1px groove hsl(0, 0%, 100%);
+}
+.creator-container{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+span{
+    color: hsl(0, 0%, 100%);
+}
+footer{
+    border: 1px groove hsl(215, 51%, 70%);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    
+}
+
+@media screen and (max-width: 375px){
+    .nft-card{
+        width: 50vh;
+    }
+    .img-container{
+        width: 100%;
+    }
+}
+    
